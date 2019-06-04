@@ -4,6 +4,7 @@ draw_rectangle(127, 656-1, 1280-127, 656+4+1, 0);
 
 draw_set_font(fnt_body);
 draw_set_halign(0);
+draw_set_valign(1);
 draw_text(128, 632, "Progress to Destination")
 
 draw_set_color($583AE9);
