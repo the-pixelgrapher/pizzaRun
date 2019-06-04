@@ -7,4 +7,4 @@ draw_set_halign(0);
 draw_text(128, 632, "Progress to Destination")
 
 draw_set_color($583AE9);
-draw_rectangle(128, 656, 1024 * progress_adj + 128, 656+4, 0);
+draw_rectangle(128, 656, round(1024 * progress_adj + 128), 656+4, 0);
