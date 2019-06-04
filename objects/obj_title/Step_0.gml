@@ -18,7 +18,7 @@ if (key_act_p)
 	
 	if (select == 0)
 	{
-		room_goto(room + 1);
+		room_goto(rm_main);
 	}
 	
 	if (select == 1)
