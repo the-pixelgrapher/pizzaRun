@@ -1,4 +1,4 @@
-direction = random_range(45,135);
+direction = random_range(0,360);
 speed = random_range(3,8);
 alarm[0] = random_range(30,60);
 motion_set(direction, speed);

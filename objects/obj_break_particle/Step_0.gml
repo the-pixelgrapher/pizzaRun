@@ -5,7 +5,7 @@ else{
 	speed = 0;
 }
 
-scr_move(hsp);
+scr_move(hsp, vsp);
 
 if (fadeout){
 	palpha -= 0.01;
