@@ -31,4 +31,3 @@ if (place_meeting(x, y + vsp, obj_solid))
 	vsp = 0;
 }
 y = y + vsp;
-

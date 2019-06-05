@@ -38,21 +38,25 @@ y = round( clamp(y, 64/2, room_height - (64/2)) );
 scr_move(hsp, vsp);
 
 target_block = 0;
-target_block = instance_nearest(x, y, obj_crate)
-if (target_block != 0 && point_distance(x, y, target_block.x, target_block.y) < 72)
+if (instance_exists(obj_crate))
 {
-	interact_in_range = true;
-	
-	if (key_act_p)
+	target_block = instance_nearest(x, y, obj_crate)
+
+	if (point_distance(x, y, target_block.x, target_block.y) < 72)
 	{
-		target_block.hp = 0;
+		interact_in_range = true;
+	
+		if (key_act_p)
+		{
+			target_block.hp = 0;
+			target_block = 0;
+		}
+	}
+	else
+	{
+		interact_in_range = false;
 		target_block = 0;
 	}
-}
-else
-{
-	interact_in_range = false;
-	target_block = 0;
 }
 
 

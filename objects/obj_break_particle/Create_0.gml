@@ -1,6 +1,6 @@
 direction = random_range(0,360);
 speed = random_range(3,8);
-alarm[0] = random_range(30,60);
+alarm[0] = random_range(20,40);
 motion_set(direction, speed);
 
 image_speed = 0;
