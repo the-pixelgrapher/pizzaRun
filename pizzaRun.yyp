@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "55509aae-cd99-42ab-af34-53370335508a",
+            "Value": {
+                "id": "40d7718c-a3b3-4be8-bc44-ab241c752966",
+                "resourcePath": "objects\\obj_endflag\\obj_endflag.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57bec7f5-fe4b-4fb5-b8b1-b5edfad07c50",
             "Value": {
                 "id": "248ed96b-92c9-44fd-b90a-6c575e9a9989",

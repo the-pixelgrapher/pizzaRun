@@ -1,16 +1,14 @@
 {
     "id": "d52f7e37-fb2e-4616-8a10-eb1237bcb61b",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "fnt_title",
     "AntiAlias": 1,
     "TTFName": "",
-    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Rockwell",
-    "glyphOperations": 1,
     "glyphs": [
         {
             "Key": 32,
@@ -1453,9 +1451,8 @@
             }
         }
     ],
-    "hinting": 2,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         {
@@ -3348,8 +3345,6 @@
         }
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
