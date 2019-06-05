@@ -1,6 +1,6 @@
 if (global.is_paused)
 {
-	scr_message("Game is paused.", 0.1);
+	//scr_message("Game is paused.", 0.1);
 	
 	y = lerp(y, 0, 0.15);
 	draw_alpha = lerp(draw_alpha, 1, 0.25);
