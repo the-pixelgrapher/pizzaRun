@@ -1,4 +1,5 @@
 walksp = 4.1; // Horizontal movement speed
+boost_mult = 2; //multiplier for boost speed
 
 hp = 200;
 target_block = 0;

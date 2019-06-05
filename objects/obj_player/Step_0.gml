@@ -13,9 +13,19 @@ else
 	walksp_mult = 1;
 }
 
+var boostsp = 1;
+if (key_ability || key_shift)
+{
+	boostsp = boost_mult;	
+}
+else
+{
+	boostsp = 1;	
+}
+
 // Horizontal movement calculation
 var movex = (key_right - key_left);
-hsp = lerp(hsp, movex * walksp * walksp_mult, 0.33);
+hsp = lerp(hsp, movex * walksp * walksp_mult * boostsp, 0.33);
 
 // Sprite flipping
 if (hsp < -walksp * 0.7)
@@ -29,7 +39,7 @@ else if (hsp > walksp * 0.7)
 
 // Vertical movement calculation
 var movey = (key_down - key_up);
-vsp = lerp(vsp, movey * walksp * walksp_mult, 0.33);
+vsp = lerp(vsp, movey * walksp * walksp_mult * boostsp, 0.33);
 
 //clamp position to room
 x = round( clamp(x, 64/2, room_width - (64/2)) );
