@@ -4,7 +4,7 @@
 scr_controls();
 
 // Ensure diagonal movement stays no higher than walksp
-if (abs(key_right-key_left) + abs(key_down - key_up) > 1)
+if (abs(key_right - key_left) + abs(key_down - key_up) > 1)
 {
 	walksp_mult = sqrt(0.5);
 }
