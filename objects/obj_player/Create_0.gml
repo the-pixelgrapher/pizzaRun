@@ -1,7 +1,13 @@
 walksp = 4.1; // Horizontal movement speed
-boost_mult = 2; //multiplier for boost speed
+boost_mult = 2; // multiplier for boost speed
+fatigue_mult = 0.20 // multiplier for running out of stamina
 
-hp = 200;
+hp_max = 200
+hp_cur = hp_max;
+
+sp_max = 200
+sp_cur = sp_max;
+
 target_block = 0;
 
 // State variables
